@@ -1,0 +1,8 @@
+name: RemoveRef
+version: '${project.version}'
+main: me.notdew.com.removeref.RemoveRef
+api-version: 1.16.5
+
+commands:
+  removeref:
+    usage: /<command>
