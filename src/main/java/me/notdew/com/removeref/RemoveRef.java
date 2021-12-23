@@ -8,6 +8,7 @@ public final class RemoveRef extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         getCommand("removeref").setExecutor(new Command());
+        getCommand("addref").setExecutor(new AddCommand());
 
     }
 
